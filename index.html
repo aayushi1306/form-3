@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form>
+            <div>
+                <label for="userid">User ID:</label>
+                <input id="userid" type="text" name="username" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input id="password" type="password" name="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="cp"> Confirm Password:</label>
+                <input id="cp" type="password" name="cp" required>
+            </div>
+            <br>
+            <div>
+                <label for="fn">First Name:</label>
+                <input id="fn" type="name" name="fn" required>
+            </div>
+            <br>
+            <div>
+                <label for="ln">Last Name:</label>
+                <input id="ln" type="name" name="ln" required>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender</label>
+            </div>
+            <div>
+                <input type="radio" value="male" id="male" name="gender" required>
+                <label for="male">male</label>
+            </div>
+            <div>
+                <input type="radio" value="female" id="female" name="gender" required>
+                <label for="female">female</label>
+            </div>
+            <div>
+                <input type="radio" value="other" id="other" name="gender" required>
+                <label for="other">other</label>
+            </div>
+            <br>
+            <div>
+                <label for="em">Email:</label>
+                <input id="em" type="email" name="em" required>
+            </div>
+            <br>
+            <div>
+                <label for="com">Company:</label>
+                <input id="com" type="text" name="com" >
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input id="phone" type="number" name="phone" required>
+            </div>
+            <br>
+            <div>
+                <label for="fax">Fax:</label>
+                <input id="fax" type="text" name="f" required>
+            </div>
+            <br>
+            <div>
+                <label for="add1">Address1:</label>
+                <input id="add1" type="text" name="add1" required>
+            </div>
+            <br>
+            <div>
+                <label for="add2">Address2:</label>
+                <input id="add2" type="text" name="add2" required>
+            </div>
+            <br>
+            <div>
+                <label for="ci">City:</label>
+                <select name="city" id="ci" >
+                    <option value="ud">Udaipur</option>
+                    <option value="in">Indore</option>
+                    <option value="rt">Ratlam</option>
+                    <option value="nmh">Neemuch</option>
+                    <option value="de">Delhi</option>
+                    <option value="ko">Kota</option>
+                    <option value="gw">Gwalior</option>
+                    <option value="mb">Mumbai</option>
+                </select>
+            </div> 
+            <br>
+            <div>
+                <label for="st">State:</label>
+                <select name="state" id="st" >
+                    <option value="mp">Madhya Pradesh</option>
+                    <option value="rj">Rajasthan</option>
+                    <option value="up">Uttar Pradesh</option>
+                    <option value="mh">Maharashtra</option>
+                    <option value="uk">Uttarakhand</option>
+                    <option value="pb">Punjab</option>
+                    <option value="jm">Jammu and Kashmir</option>
+                    <option value="cd">Chandigarh </option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="pc">Zip/Pincode:</label>
+                <input id="pc" type="text" name="pc" required>
+            </div>
+            <br>
+            <div>
+                <label for="co">Country:</label>
+                <select name="country" id="co" >
+                    <option value="mp">India</option>
+                    <option value="rj">Germany</option>
+                    <option value="up">Italy</option>
+                    <option value="mh">Japan</option>
+                    <option value="uk">Malaysia</option>
+                    <option value="pb">Mexico</option>
+                    <option value="jm">Singapore</option>
+                    <option value="cd">France</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="comm">Comment:</label>
+                <textarea name="comm" id="comm" cols="70" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="register">
+                <input type="reset" value="cancel">
+            </div>
+        </form>
+    </body>
+</html>
